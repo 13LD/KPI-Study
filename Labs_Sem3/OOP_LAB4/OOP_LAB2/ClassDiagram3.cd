@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOP_LAB2.Cheese" Collapsed="true">
+    <Position X="1.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAAAAAAAAAAAAACBAAAAgAgEAAAAEABA=</HashCode>
+      <FileName>Cheese.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_LAB2.EArgs" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAACA=</HashCode>
+      <FileName>CheeseCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_LAB2.MyException" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>CheeseCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_LAB2.CheeseCreator" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAACAAAQAAAAAAIAAAAAAQAAAAMAASAAIAAAgAA=</HashCode>
+      <FileName>CheeseCreator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OOP_LAB2.CheeseShop&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQQACAAAAAYAAAAAAAAEAAAAAIAAAAA=</HashCode>
+      <FileName>CheeseShop.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OOP_LAB2.Goods" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAABAABAAQAAQAACAEAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Goods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_LAB2.MilkProduct" Collapsed="true">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>MilkProducts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_LAB2.Product" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Products.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_LAB2.Program" Collapsed="true">
+    <Position X="3.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_LAB2.SourCream" Collapsed="true">
+    <Position X="5.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQACAAAAAAAQAAQAACAEAAAgAAAAAAAEAAA=</HashCode>
+      <FileName>SourCream.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="OOP_LAB2.Point" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>CheeseCreator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OOP_LAB2.Mark" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>CheeseCreator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OOP_LAB2.customerPersonalView&lt;T&gt;" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>CheeseCreator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

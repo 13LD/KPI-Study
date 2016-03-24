@@ -1,0 +1,6 @@
+F:\Films\ChatUDP_Test\ChatUDP_Test\bin\Debug\ChatUDP_Test.exe.config
+F:\Films\ChatUDP_Test\ChatUDP_Test\bin\Debug\ChatUDP_Test.exe
+F:\Films\ChatUDP_Test\ChatUDP_Test\bin\Debug\ChatUDP_Test.pdb
+F:\Films\ChatUDP_Test\ChatUDP_Test\obj\Debug\ChatUDP_Test.csprojResolveAssemblyReference.cache
+F:\Films\ChatUDP_Test\ChatUDP_Test\obj\Debug\ChatUDP_Test.exe
+F:\Films\ChatUDP_Test\ChatUDP_Test\obj\Debug\ChatUDP_Test.pdb

@@ -1,0 +1,5 @@
+/Users/lysogordima/Projects/OOP_LAB1_1/OOP_LAB1_1/obj/x86/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/lysogordima/Projects/OOP_LAB1_1/OOP_LAB1_1/bin/Release/OOP_LAB1_1.exe.mdb
+/Users/lysogordima/Projects/OOP_LAB1_1/OOP_LAB1_1/bin/Release/OOP_LAB1_1.exe
+/Users/lysogordima/Projects/OOP_LAB1_1/OOP_LAB1_1/obj/x86/Release/OOP_LAB1_1.exe
+/Users/lysogordima/Projects/OOP_LAB1_1/OOP_LAB1_1/obj/x86/Release/OOP_LAB1_1.exe.mdb

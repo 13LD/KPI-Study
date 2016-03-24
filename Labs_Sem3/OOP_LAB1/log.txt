@@ -1,0 +1,19 @@
+17.10.2015 14:10:30 Logging started
+17.10.2015 14:10:30 FileReader Started
+17.10.2015 14:10:30 Reading dimension
+17.10.2015 14:10:30 Reading single vector
+17.10.2015 14:10:30 Reading single vector
+17.10.2015 14:10:30 Vectors reading finished
+17.10.2015 14:10:30 Reading single matrix
+17.10.2015 14:10:30 Reading single matrix
+17.10.2015 14:10:30 Reading single matrix
+17.10.2015 14:10:30 Matrixs reading finished
+17.10.2015 14:10:30 FileReader finished
+17.10.2015 14:10:30 Calculations started
+17.10.2015 14:10:30 Oper * suc
+17.10.2015 14:10:30 Oper - suc
+17.10.2015 14:10:30 Oper * suc
+17.10.2015 14:10:30 Oper + suc
+17.10.2015 14:10:30 Oper * suc
+17.10.2015 14:10:30 Calculations finished
+17.10.2015 14:10:30 Logging finished

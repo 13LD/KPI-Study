@@ -1,0 +1,5 @@
+F:\Films\SocketClient\SocketClient\bin\Debug\SocketClient.exe.config
+F:\Films\SocketClient\SocketClient\bin\Debug\SocketClient.exe
+F:\Films\SocketClient\SocketClient\bin\Debug\SocketClient.pdb
+F:\Films\SocketClient\SocketClient\obj\Debug\SocketClient.exe
+F:\Films\SocketClient\SocketClient\obj\Debug\SocketClient.pdb

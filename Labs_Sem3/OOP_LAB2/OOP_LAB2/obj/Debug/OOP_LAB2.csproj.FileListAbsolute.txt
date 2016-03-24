@@ -1,0 +1,6 @@
+F:\Films\OOP_LAB2\OOP_LAB2\bin\Debug\OOP_LAB2.exe.config
+F:\Films\OOP_LAB2\OOP_LAB2\obj\Debug\OOP_LAB2.csprojResolveAssemblyReference.cache
+F:\Films\OOP_LAB2\OOP_LAB2\bin\Debug\OOP_LAB2.exe
+F:\Films\OOP_LAB2\OOP_LAB2\bin\Debug\OOP_LAB2.pdb
+F:\Films\OOP_LAB2\OOP_LAB2\obj\Debug\OOP_LAB2.exe
+F:\Films\OOP_LAB2\OOP_LAB2\obj\Debug\OOP_LAB2.pdb
