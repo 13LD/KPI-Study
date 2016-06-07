@@ -9,6 +9,6 @@ public class ConcreteCommand1 implements  IExecutor{
         this.com = com;
     }
     public void execute(){
-        com.simpleUserExec();
+        com.deanExecution();
     }
 }

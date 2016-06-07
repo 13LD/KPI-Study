@@ -1,7 +1,7 @@
 package com.company;
 
 /**
- * Created by lysogordima on 12.05.16.
+ * Created by lysogordima on 20.05.16.
  */
 public class ConcreteCommand3 implements IExecutor {
     private Commands com;
@@ -9,6 +9,6 @@ public class ConcreteCommand3 implements IExecutor {
         this.com = com;
     }
     public void execute(){
-        com.adminUserExec();
+        com.studentExecution();
     }
 }

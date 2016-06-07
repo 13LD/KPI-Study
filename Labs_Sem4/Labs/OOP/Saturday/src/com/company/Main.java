@@ -14,6 +14,7 @@ public class Main {
         invoker.takeExecutor(concreteCommand2);
         invoker.takeExecutor(concreteCommand3);
 
+
         invoker.placeExecutor();
 
     }

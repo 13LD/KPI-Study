@@ -9,6 +9,6 @@ public class ConcreteCommand2 implements IExecutor {
         this.com = com;
     }
     public void execute(){
-        com.advancedUserExec();
+        com.stewardExecution();
     }
 }
