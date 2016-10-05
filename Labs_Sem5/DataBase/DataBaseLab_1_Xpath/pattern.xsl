@@ -3,24 +3,27 @@
 
 <xsl:template match="/">
   <html>
+  <head>
+  </head>
   <body>
   <h2>Products</h2>
-    <table border="1">
-      <tr bgcolor="#0000FF">
-        <th style="text-align:left">Name</th>
-        <th style="text-align:left">Price</th>
-        <th style="text-align:left">Description</th>
-        <th style="text-align:left">Image url</th>
-      </tr>
-      <xsl:for-each select="data/product">
-      <tr>
-        <td><xsl:value-of select="name"/></td>
-        <td><xsl:value-of select="price"/></td>
-        <td><xsl:value-of select="description"/></td>
-        <td><xsl:value-of select="image"/></td>
-      </tr>
+  <div class="container">
+    <xsl:for-each select="data/product">
+      <div class="colll" style="margin-bottom: 1%">
+        <div class="colll" style="background-color:lavender;">Name : <xsl:value-of select="name"/></div>
+        <div class="colll" style="background-color:lavender;">Price : <xsl:value-of select="price"/></div>
+        <div class="colll" style="background-color:lavender;">Description : <xsl:value-of select="description"/></div>
+        <div class="colll" style="background-color:lavender;">
+          <img >
+                <xsl:attribute name="src">
+                    <xsl:value-of select="image"/>
+                </xsl:attribute>
+          </img>
+        </div>
+      </div>
+
       </xsl:for-each>
-    </table>
+    </div>
   </body>
   </html>
 </xsl:template>

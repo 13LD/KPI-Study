@@ -2,6 +2,7 @@ from lxml import etree
 import urllib2
 from task1 import get_text
 
+BASE_URL = "http://www.odissey.kiev.ua/"
 
 
 class Product:
@@ -19,34 +20,31 @@ class Product:
 
 
 def parse_html(url):
-    response = urllib2.urlopen("http://www.meblium.com.ua/myagkaya-mebel/divany" + url)
+    response = urllib2.urlopen(BASE_URL + url)
     page = response.read()
 
-    tree = etree.HTML(page)
+    tree = etree.HTML(page.decode("cp1251").encode('utf-8'))
 
-    name = tree.xpath("string(//span[@class='product-name']/text())")
-    price = tree.xpath("string(//span[@class='old-price']/text())")
-    image = tree.xpath("string(//img[@itemprop='image']/@src)")
-    desc1 = tree.xpath("string(//span[@class='product-model']//text())")
-    desc2 = tree.xpath("string(//span[@itemprop='model']//text())")
-    desc3 = tree.xpath("string(//span[@class='product-model'][2]//text())")
+    name = tree.xpath("string(//div[@itemprop='name']/h1/text())")
+    price = tree.xpath("string(//div[@id='optionPrice']/text())")
+    image = tree.xpath("string(//img[@class='thumbnail']/@src)")
+    desc = tree.xpath("//div[@style='overflow-x: auto']/span[@itemprop='description']//text()")
 
-    desc = desc1 + desc2 + desc3
+    get_text(desc)
+    desc = reduce(lambda a, x: a + x, desc)
 
-
-
-    return Product(name, price, desc, image)
+    return Product(name, price, desc, BASE_URL + image)
 
 
 def generate_xml(filename):
-    response = urllib2.urlopen("http://www.meblium.com.ua/myagkaya-mebel/divany")
+    response = urllib2.urlopen(BASE_URL)
     page = response.read()
 
     tree = etree.HTML(page)
 
     urls = tree.xpath('//a/@href')
     urls = list(set(urls))
-    urls = filter(lambda x: x.startswith('http://www.meblium.com.ua/divan'), urls)
+    urls = filter(lambda x: x.startswith('product'), urls)[-20:]
 
     products = []
     for url in urls:
