@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List page</title>
+     {% load staticfiles %}
+    <link href="{% static 'semantic/semantic.min.css'%}" rel="stylesheet" type="text/css">
+    <script src="{% static 'semantic/semantic.min.js'%}"></script>
+</head>
+<body>
+
+
+<table class="ui celled striped padded table">
+  <thead>
+    <tr>
+        <th>Product name</th>
+        <th>Product price</th>
+        <th>Shop name</th>
+        <th>Shop address</th>
+        <th>Customer name</th>
+        <th>Customer surname</th>
+        <th>Customer age</th>
+        <th>Sale type</th>
+        <th>Sale year</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% if list != None%}
+        {% for sale in list %}
+        <tr>
+            <th>{{sale.product.productName}}</th>
+            <th>{{sale.product.productPrice}}</th>
+            <th>{{sale.shop.shopName}}</th>
+            <th>{{sale.shop.shopAddress}}</th>
+            <th>{{sale.user.userName}}</th>
+            <th>{{sale.user.userSurname}}</th>
+            <th>{{sale.user.userAge}}</th>
+            <th>{{sale.saleType}}</th>
+            <th>{{sale.saleDate}}</th>
+            <th><a href="/polls/{{sale.id}}"> <button class="ui blue button">Edit</button> </a></th>
+            <th><a href="/polls/remove/{{sale.id}}"> <button class="ui red button">Delete</button> </a></th>
+
+
+
+        </tr>
+        {% endfor %}
+    {% endif %}
+  </tbody>
+
+</table>
+<br>
+
+<div class="ui">
+    <div class="row">
+         <h3>Search by user age</h3>
+            <form class="ui form" method="get">
+                <div class="field">
+                    <label>From Age</label>
+                    <input type="number" name="fromAge" placeholder="From">
+                </div>
+                <div class="field">
+                    <label>To Age</label>
+                    <input type="number" name="toAge" placeholder="To">
+                </div>
+                <button class="ui yellow button" type="submit">Filter</button>
+            </form>
+
+        </div>
+</div>
+
+        <div>
+            <h3>Search by word</h3>
+            <form class="ui form" method="get">
+                <div class="field">
+                    <label>Word</label>
+                    <input type="text" name="Word" placeholder="Word">
+                </div>
+                <button class="ui yellow button" type="submit">Filter</button>
+            </form>
+        </div>
+        <div>
+            <h3>Search by string</h3>
+            <form class="ui form" method="get">
+                <div class="field">
+                    <label>String</label>
+                    <input type="text" name="containsString" placeholder="String">
+                </div>
+                <button class="ui yellow button" type="submit">Filter</button>
+            </form>
+        </div>
+    <div>
+            <h3>Search by shop</h3>
+            <form class="ui form " method="get">
+                        <div class="field">
+                            <label>Shop</label>
+                            <select  class="ui dropdown" name="shopId">
+                                {% for shop in shops %}
+                              <option value="{{shop.id}}">{{shop.shopName}} : {{shop.shopAddress}}</option>
+                                {% endfor %}
+                            </select>
+                            <br>
+                            <button class="ui yellow button" type="submit">Filter</button>
+                        </div>
+            </form>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
