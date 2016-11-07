@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List page</title>
+    {% load app_name_filters %}
+    {% load staticfiles %}
+    <link href="{% static 'semantic/semantic.min.css'%}" rel="stylesheet" type="text/css">
+    <script src="{% static 'semantic/semantic.min.js'%}"></script>
+</head>
+<body>
+
+
+<table class="ui celled striped padded table">
+    <thead>
+    <tr>
+        <th>Product name</th>
+        <th>Product price</th>
+        <th>Department name</th>
+        <th>Department address</th>
+        <th>Customer name</th>
+        <th>Customer surname</th>
+        <th>Customer age</th>
+        <th>Sale type</th>
+        <th>Sale description</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% if list != None%}
+    {% for sale in list %}
+    <tr>
+        <th>{{sale.product.name}}</th>
+        <th>{{sale.product.price}}</th>
+        <th>{{sale.department.name}}</th>
+        <th>{{sale.department.address}}</th>
+        <th>{{sale.user.name}}</th>
+        <th>{{sale.user.surname}}</th>
+        <th>{{sale.user.age}}</th>
+        <th>{{sale.saletype}}</th>
+        <th>{{sale.description}}</th>
+        <th><a href="/sales/{{sale|private:'_id'}}">
+            <button class="ui yellow button">Edit</button>
+        </a></th>
+        <th><a href="/sales/remove/{{sale|private:'_id'}}">
+            <button class="ui green button">Delete</button>
+        </a></th>
+
+
+    </tr>
+    {% endfor %}
+    {% endif %}
+    </tbody>
+
+</table>
+
+
+</body>
+</html>
