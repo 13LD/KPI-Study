@@ -46,21 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adminpage.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="adminpage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lab/sales/templates/adminpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.083334">
+            <state vertical-scroll-proportion="0.5787106">
               <caret line="107" column="74" selection-start-line="107" selection-start-column="74" selection-end-line="107" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31626505">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -902,14 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab/sales/templates/adminpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.083334">
-          <caret line="107" column="74" selection-start-line="107" selection-start-column="74" selection-end-line="107" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab/sales/Database.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -924,6 +906,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31626505">
           <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab/sales/templates/adminpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5787106">
+          <caret line="107" column="74" selection-start-line="107" selection-start-column="74" selection-end-line="107" selection-end-column="74" />
           <folding />
         </state>
       </provider>
